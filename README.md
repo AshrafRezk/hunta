@@ -1,2 +1,0 @@
-# Hunta
-Hunta's Website
