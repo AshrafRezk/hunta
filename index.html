@@ -112,12 +112,61 @@
 					</header>
 					<p>The Hunta package is ready for any salesforce org. <br/>After a requirements gathering session, the package will be tailored to suit your exact business needs to be up and running in no time.</p>
 					<ul class="actions special">
-						<li><a href="#" class="button wide primary">Request Quotation</a></li>
+						<li><a href="#quote" class="button scrolly">Request Quotation</a></li>
 						
 					</ul>
-				</div>
+				</div><br/><hr />
 			</section>
 
+
+<section id="quote" class="main style1 special">
+	<div class="container">
+				<header class="major">
+						<h2>Quotation Form</h2>
+					</header>
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: Please add the following <META> element to your page <HEAD>.      -->
+<!--  If necessary, please modify the charset parameter to specify the        -->
+<!--  character set of your HTML page.                                        -->
+<!--  ----------------------------------------------------------------------  -->
+
+<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: Please add the following <FORM> element to your page.             -->
+<!--  ----------------------------------------------------------------------  -->
+
+<form  action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+
+<input type=hidden name="oid" value="00D8d000008D5WR">
+<input type=hidden name="retURL" value="http://hunta.me">
+
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
+<!--  these lines if you wish to test in debug mode.                          -->
+<!--  <input type="hidden" name="debug" value=1>                              -->
+<!--  <input type="hidden" name="debugEmail" value="p.abdou99@gmail.com">     -->
+<!--  ----------------------------------------------------------------------  -->
+<div class="row gtr-uniform gtr-50">
+						<div class="col-6 col-12-xsmall">
+							<input  placeholder="First Name" id="first_name" maxlength="40" name="first_name" size="20" type="text" required/><br/>
+						</div>
+						<div class="col-6 col-12-xsmall">
+							<input  placeholder="Last Name" id="last_name" maxlength="80" name="last_name" size="20" type="text" required/><br/>
+							
+						</div>
+</div>
+
+<input  placeholder="Email" id="email" maxlength="80" name="email" size="20" type="text" required /><br/>
+<input  placeholder="Company Name" id="company" maxlength="40" name="company" size="20" type="text" required /><br/>
+<input class="button" type="submit" name="submit" > <br/>
+
+</form>
+
+
+
+				</div>
+			</section>
 		<!-- Five -->
 		<!--
 			<section id="five" class="main style1">
@@ -446,7 +495,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 					<li><a href="#" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
 				</ul>
 				<ul class="copyright">
-					<li>2022 &copy; All Rights Reserved</li> <a href="http://hunta.me">Hunta</a></li>
+					<li>2023 &copy; All Rights Reserved</li> <a href="http://hunta.me">Hunta</a></li>
 				</ul>
 			</section>
 
